@@ -12,4 +12,8 @@
     <string name="register">Register</string>
     <string name="already_registered">Already Registered?</string>
     <string name="welcome_to_eventia">Welcome to Eventia</string>
+
+    <string name="openNavDrawer">Navigation Drawer Open</string>
+    <string name="closeNavDrawer">Navigation Drawer Close</string>
+
 </resources>

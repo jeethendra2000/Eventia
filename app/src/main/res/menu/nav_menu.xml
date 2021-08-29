@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Storage">
+        <menu>
+            <item android:title="Home" android:icon="@drawable/ic_baseline_menu_24"></item>
+            <item android:title="My File" android:icon="@drawable/ic_baseline_menu_24"></item>
+            <item android:title="My Files" android:icon="@drawable/ic_baseline_menu_24"></item>
+            <item android:title="My Files" android:icon="@drawable/ic_baseline_menu_24"></item>
+
+        </menu>
+    </item>
+
+    <item android:title="app">
+        <menu>
+            <item android:title="Setting" android:icon="@drawable/ic_baseline_menu_24"></item>
+            <item android:title="My File1" android:icon="@drawable/ic_baseline_menu_24"></item>
+            <item android:title="My Files2" android:icon="@drawable/ic_baseline_menu_24"></item>
+            <item android:title="My Files3" android:icon="@drawable/ic_baseline_menu_24"></item>
+
+        </menu>
+    </item>
+</menu>

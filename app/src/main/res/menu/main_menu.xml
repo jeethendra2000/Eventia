@@ -2,7 +2,14 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/Help"
-        android:title="Help" />
-    <item android:title="Logout" />
+        android:id="@+id/my_profile"
+        android:title="My Profile"
+        android:visible="false" />
+    <item
+        android:id="@+id/login"
+        android:visible="true"
+        android:title="Log In" />
+<!--    <item-->
+<!--        android:id="@+id/logout"-->
+<!--        android:title="Log Out" />-->
 </menu>

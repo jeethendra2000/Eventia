@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
@@ -45,6 +46,16 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         navigationView.setNavigationItemSelectedListener(this);
     }
 
+//    to close sidebar on back button
+    @Override
+    public void onBackPressed() {
+        if (this.drawerLayout.isDrawerOpen(GravityCompat.START)) {
+            this.drawerLayout.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+        }
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         super.onCreateOptionsMenu(menu);
@@ -58,13 +69,39 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         startActivity(intent);
     }
 
+//    changing activity by clicking on menu items of sidebar
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        return false;
+
+        switch(item.getItemId()){
+            case R.id.home:
+                break;
+            case R.id.contact_us:
+                Intent intent = new Intent(this, contactUsActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.about_us:
+                Intent intent1 = new Intent( this, aboutUsActivity.class);
+                startActivity(intent1);
+                break;
+            case R.id.privacy_policy:
+                Intent intent2 = new Intent(this, privacyPolicyActivity.class);
+                startActivity(intent2);
+                break;
+            case R.id.share_app:
+                Toast.makeText(this, "sharing your app", Toast.LENGTH_SHORT).show();
+//                Intent intent3 = new Intent(this, contactUsActivity.class);
+//                startActivity(intent3);
+                break;
+            case R.id.rate_us:
+                Intent intent4 = new Intent(this, rateUsActivity.class);
+                startActivity(intent4);
+                break;
+        }
+        return true;
     }
 
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {
-
     }
 }

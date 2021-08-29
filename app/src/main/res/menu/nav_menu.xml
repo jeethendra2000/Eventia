@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:title="Storage">
-        <menu>
-            <item android:title="Home" android:icon="@drawable/ic_baseline_menu_24"></item>
-            <item android:title="My File" android:icon="@drawable/ic_baseline_menu_24"></item>
-            <item android:title="My Files" android:icon="@drawable/ic_baseline_menu_24"></item>
-            <item android:title="My Files" android:icon="@drawable/ic_baseline_menu_24"></item>
 
-        </menu>
-    </item>
 
-    <item android:title="app">
-        <menu>
-            <item android:title="Setting" android:icon="@drawable/ic_baseline_menu_24"></item>
-            <item android:title="My File1" android:icon="@drawable/ic_baseline_menu_24"></item>
-            <item android:title="My Files2" android:icon="@drawable/ic_baseline_menu_24"></item>
-            <item android:title="My Files3" android:icon="@drawable/ic_baseline_menu_24"></item>
-
-        </menu>
-    </item>
+        <item android:title="Jump to">
+            <menu >
+                <item android:id="@+id/home" android:title="Home"  android:icon="@drawable/ic_baseline_home_24"></item>
+                <item android:id="@+id/contact_us" android:title="Contact Us" android:icon="@drawable/ic_baseline_phone_24"></item>
+                <item android:id="@+id/about_us" android:title="About Us" android:icon="@drawable/ic_baseline_info_24"></item>
+                <item android:id="@+id/privacy_policy" android:title="Privacy Policy" android:icon="@drawable/ic_baseline_lock_24"></item>
+                <item android:id="@+id/share_app" android:title="Share App" android:icon="@drawable/ic_baseline_share_24"></item>
+                <item android:id="@+id/rate_us" android:title="Rate Us" android:icon="@drawable/ic_baseline_star_half_24"></item>
+            </menu>
+        </item>
+<!--    <item android:title="About Our App">-->
+<!--        <menu>-->
+<!--            <item android:title="Privacy Policy" android:icon="@drawable/ic_baseline_lock_24"></item>-->
+<!--            <item android:title="Share App" android:icon="@drawable/ic_baseline_share_24"></item>-->
+<!--            <item android:title="Rate Us" android:icon="@drawable/ic_baseline_star_half_24"></item>-->
+<!--        </menu>-->
+<!--    </item>-->
 </menu>

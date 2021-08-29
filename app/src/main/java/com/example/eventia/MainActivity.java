@@ -75,6 +75,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         switch(item.getItemId()){
             case R.id.home:
+                Intent intent0 = new Intent(this, MainActivity.class);
+                startActivity(intent0);
                 break;
             case R.id.contact_us:
                 Intent intent = new Intent(this, contactUsActivity.class);
@@ -90,8 +92,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             case R.id.share_app:
                 Toast.makeText(this, "sharing your app", Toast.LENGTH_SHORT).show();
-//                Intent intent3 = new Intent(this, contactUsActivity.class);
-//                startActivity(intent3);
+                Intent intent3 = new Intent(this, LoginActivity.class);
+                startActivity(intent3);
                 break;
             case R.id.rate_us:
                 Intent intent4 = new Intent(this, rateUsActivity.class);

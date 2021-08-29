@@ -68,18 +68,18 @@
         app:menu="@menu/nav_menu"/>
 
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="116dp"
-        android:layout_marginBottom="52dp"
-        android:background="#AC0A0A"
-        android:onClick="openLoginActivity"
-        android:text="Go to Login page"
-        app:layout_anchor="@+id/appBarLayout"
-        app:layout_anchorGravity="center"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
-        app:layout_constraintStart_toStartOf="parent" />
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="116dp"-->
+<!--        android:layout_marginBottom="52dp"-->
+<!--        android:background="#AC0A0A"-->
+<!--        android:onClick="openLoginActivity"-->
+<!--        android:text="Go to Login page"-->
+<!--        app:layout_anchor="@+id/appBarLayout"-->
+<!--        app:layout_anchorGravity="center"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/textView2"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
 
     </androidx.drawerlayout.widget.DrawerLayout>

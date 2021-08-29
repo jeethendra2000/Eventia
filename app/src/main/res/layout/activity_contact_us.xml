@@ -4,19 +4,135 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E5E5E7"
     tools:context=".contactUsActivity">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="contact us page"
-        android:textColor="#BF1C1C"
-        android:textSize="24sp"
+    <!--    <View-->
+    <!--        android:id="@+id/view3"-->
+    <!--        android:layout_width="309dp"-->
+    <!--        android:layout_height="418dp"-->
+    <!--        android:background="@drawable/contact_us_shape"-->
+    <!--        tools:layout_editor_absoluteX="51dp"-->
+    <!--        tools:layout_editor_absoluteY="238dp" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView2"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Contact Us"-->
+    <!--        android:textSize="36sp"-->
+    <!--        tools:layout_editor_absoluteX="49dp"-->
+    <!--        tools:layout_editor_absoluteY="33dp" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView4"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Feels like contacting us ?"-->
+    <!--        tools:layout_editor_absoluteX="49dp"-->
+    <!--        tools:layout_editor_absoluteY="106dp" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView5"-->
+    <!--        android:layout_width="297dp"-->
+    <!--        android:layout_height="33dp"-->
+    <!--        android:text="Submit your queries here and we will get back to you as soon as possible."-->
+    <!--        tools:layout_editor_absoluteX="49dp"-->
+    <!--        tools:layout_editor_absoluteY="132dp" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView6"-->
+    <!--        android:layout_width="122dp"-->
+    <!--        android:layout_height="23dp"-->
+    <!--        android:text="Send us a message"-->
+    <!--        android:textColor="#2B2A2A"-->
+    <!--        android:textSize="14sp"-->
+    <!--        tools:layout_editor_absoluteX="134dp"-->
+    <!--        tools:layout_editor_absoluteY="266dp" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/editTextTextPersonName"-->
+    <!--        android:layout_width="197dp"-->
+    <!--        android:layout_height="40dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:inputType="textPersonName"-->
+    <!--        android:text="Name"-->
+    <!--        android:textColor="#272727"-->
+    <!--        tools:layout_editor_absoluteX="107dp"-->
+    <!--        tools:layout_editor_absoluteY="326dp" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/editTextTextEmailAddress"-->
+    <!--        android:layout_width="195dp"-->
+    <!--        android:layout_height="41dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:inputType="textEmailAddress"-->
+    <!--        android:text="Email"-->
+    <!--        tools:layout_editor_absoluteX="107dp"-->
+    <!--        tools:layout_editor_absoluteY="382dp" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/editTextTextMultiLine"-->
+    <!--        android:layout_width="195dp"-->
+    <!--        android:layout_height="112dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:gravity="start|top"-->
+    <!--        android:inputType="textMultiLine"-->
+    <!--        android:text="Message"-->
+    <!--        tools:layout_editor_absoluteX="107dp"-->
+    <!--        tools:layout_editor_absoluteY="438dp" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button"-->
+    <!--        android:layout_width="97dp"-->
+    <!--        android:layout_height="37dp"-->
+    <!--        android:background="@drawable/login_button_shape"-->
+    <!--        android:text="Submit"-->
+    <!--        tools:layout_editor_absoluteX="157dp"-->
+    <!--        tools:layout_editor_absoluteY="590dp" />-->
+
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+        <!--    <TextView-->
+        <!--        android:id="@+id/textView2"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:text="Contact Us"-->
+        <!--        android:textSize="36sp"-->
+        <!--        tools:layout_editor_absoluteX="49dp"-->
+        <!--        tools:layout_editor_absoluteY="33dp" />-->
+
+        <!--    <TextView-->
+        <!--        android:id="@+id/textView4"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:text="Feels like contacting us ?"-->
+        <!--        tools:layout_editor_absoluteX="49dp"-->
+        <!--        tools:layout_editor_absoluteY="106dp" />-->
+
+        <!--    <TextView-->
+        <!--        android:id="@+id/textView5"-->
+        <!--        android:layout_width="297dp"-->
+        <!--        android:layout_height="33dp"-->
+        <!--        android:text="Submit your queries here and we will get back to you as soon as possible."-->
+        <!--        tools:layout_editor_absoluteX="49dp"-->
+        <!--        tools:layout_editor_absoluteY="132dp" />-->
+
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
